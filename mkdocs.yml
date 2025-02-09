@@ -21,7 +21,6 @@ extra_css:
   
 nav:
   - About: index.md
-  - Publications: 
 
 extra:
   social:
