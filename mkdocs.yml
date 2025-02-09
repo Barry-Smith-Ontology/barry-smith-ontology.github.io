@@ -1,0 +1,36 @@
+site_name: "Barry Smith"
+repo_url: https://github.com/Barry-Smith-Ontology/barry-smith-ontology.github.io
+site_description: Barry Smith personal site
+site_author: Finn Wilson
+edit_uri: '?query=root/barry-smith-ontology.github.io/docs/'
+
+theme:
+  name: material
+  logo: assets/ncor-logo.png
+  palette:
+    primary: black
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+  hide:
+    - toc
+
+extra_css:
+  - stylesheets/extra.css
+  
+nav:
+  - About: index.md
+  - Publications: 
+    - Ontology 101 WG: ontology-101-wg.md
+  - Videos: 
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAApbuYB2XIdgO4B_zTBN4RKTGW0OqEylxg&keywords=barry%20smith&origin=RICH_QUERY_SUGGESTION&position=0&searchId=4c7bf265-d8f5-4954-8829-71ac1ab78134&sid=6!x&spellCorrectionEnabled=false
+    - icon: octicons/mail-16
+      link: mailto:ifomis@gmail.com
+
+markdown_extensions:
+    - attr_list
