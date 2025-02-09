@@ -1,3 +1,3 @@
-# Barry Smith
+# NCOR-Test
 
-Barry Smith's personal website can be viewed at [https://barry-smith-ontology.github.io/](https://barry-smith-ontology.github.io/) 
+NCOR-test page can be viewed [https://ncor-organization.github.io/ncor.us](https://ncor-organization.github.io/ncor.us)
