@@ -5,6 +5,32 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+	<style>
+.grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+.grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+.grid-item img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+.grid-item-content {
+        /* max-height: 300px; /* set to the height of the image */
+        line-height: 1.0;
+        max-width: 200px;
+        /* overflow: hidden; /* hides any content that exceeds the max-height */
+        text-align: center; /* centers the text */
+        padding: 10px 0; /* some vertical padding */
+    }
+</style>
 	<head>
 		<title>Books</title>
 		<meta charset="utf-8" />
@@ -70,17 +96,28 @@
 										<h2>Books</h2>
 									</header>
 									
-									<img src="images/why-machines-cover.jpg" alt="" width="300" />
+									<div class="grid-container">
+    									
+									<div class="grid-item">
+									<img src="images/why-machines-cover.jpg" alt=""/>
+									<div class="grid-item-content">
 									<h3><a href="https://buffalo.app.box.com/v/AI-Without-Fear">Why Machines Will Never Rule the World: Artificial Intelligence Without Fear</a></h3>
 									<p>Jobst Landgrebe and Barry Smith
 									<br>1st edition (2022)
 									<br>2nd edition (forthcoming)</p>
+									</div>
+    									</div>
 
-									<img src="images/building-ontologies.jpg" alt="" width="300" />
+									<div class="grid-item">
+									<img src="images/building-ontologies.jpg" alt=""/>
+									<div class="grid-item-content">
 									<h3><a href="https://direct.mit.edu/books/monograph/4044/Building-Ontologies-with-Basic-Formal-Ontology">Building Ontologies With Basic Formal Ontology</a></h3>
 									<p>Robert Arp, Barry Smith, and Andrew D. Spear
 									<br>2015</p>
+									</div>
+    									</div>
 
+									</div>
 								</article>
 
 						</div>
